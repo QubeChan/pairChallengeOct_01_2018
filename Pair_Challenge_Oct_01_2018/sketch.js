@@ -1,4 +1,4 @@
-var myArray = ["My", "Group", "Is", "Christy", "Aaron", "Jason"];
+var myArray = ["My", "Group", "Consists", "Of", "Christy", "Aaron", "Jason"];
 
 var circle = {
   x: 400 / 10 - 20,
@@ -38,7 +38,7 @@ function draw() {
   for (var m = 0; m < myArray.length; m++) {
     textSize(18);
     fill('red');
-    text(myArray[m], m * 50 + 50, m * 50 + 50);
+    text(myArray[m], m * 50 + 30, m * 50 + 50);
   }
   if (mouseX > 200 && mouseX < 400) {
     fill(0);
