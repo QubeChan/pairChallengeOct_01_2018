@@ -1,4 +1,6 @@
 // testing qube's branch
+// cloned my repo test
+
 var myArray = ["My", "Group", "Consists", "Of", "Christy", "Aaron", "Jason"];
 
 var circle = {
@@ -34,7 +36,7 @@ function draw() {
   circle.display();
   circle.pressedButton();
   circle.movement();
-  
+
 
   for (var m = 0; m < myArray.length; m++) {
     textSize(18);
